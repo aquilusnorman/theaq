@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/theaq/static/css/main.b9d36087.chunk.css",
-    "main.js": "/theaq/static/js/main.864e6cda.chunk.js",
-    "main.js.map": "/theaq/static/js/main.864e6cda.chunk.js.map",
-    "runtime-main.js": "/theaq/static/js/runtime-main.ed051d45.js",
-    "runtime-main.js.map": "/theaq/static/js/runtime-main.ed051d45.js.map",
+    "main.css": "/theaq/static/css/main.7584f083.chunk.css",
+    "main.js": "/theaq/static/js/main.b39ce157.chunk.js",
+    "main.js.map": "/theaq/static/js/main.b39ce157.chunk.js.map",
+    "runtime-main.js": "/theaq/static/js/runtime-main.87476f4a.js",
+    "runtime-main.js.map": "/theaq/static/js/runtime-main.87476f4a.js.map",
     "static/css/2.95f25948.chunk.css": "/theaq/static/css/2.95f25948.chunk.css",
-    "static/js/2.8978b98a.chunk.js": "/theaq/static/js/2.8978b98a.chunk.js",
-    "static/js/2.8978b98a.chunk.js.map": "/theaq/static/js/2.8978b98a.chunk.js.map",
-    "static/js/3.6ce031d3.chunk.js": "/theaq/static/js/3.6ce031d3.chunk.js",
-    "static/js/3.6ce031d3.chunk.js.map": "/theaq/static/js/3.6ce031d3.chunk.js.map",
+    "static/js/2.6c847bd7.chunk.js": "/theaq/static/js/2.6c847bd7.chunk.js",
+    "static/js/2.6c847bd7.chunk.js.map": "/theaq/static/js/2.6c847bd7.chunk.js.map",
+    "static/js/3.177e96a0.chunk.js": "/theaq/static/js/3.177e96a0.chunk.js",
+    "static/js/3.177e96a0.chunk.js.map": "/theaq/static/js/3.177e96a0.chunk.js.map",
     "index.html": "/theaq/index.html",
     "static/css/2.95f25948.chunk.css.map": "/theaq/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.b9d36087.chunk.css.map": "/theaq/static/css/main.b9d36087.chunk.css.map",
-    "static/js/2.8978b98a.chunk.js.LICENSE.txt": "/theaq/static/js/2.8978b98a.chunk.js.LICENSE.txt",
+    "static/css/main.7584f083.chunk.css.map": "/theaq/static/css/main.7584f083.chunk.css.map",
+    "static/js/2.6c847bd7.chunk.js.LICENSE.txt": "/theaq/static/js/2.6c847bd7.chunk.js.LICENSE.txt",
     "static/media/home-bg.5fa67f1b.jpg": "/theaq/static/media/home-bg.5fa67f1b.jpg",
     "static/media/home-blog.6caeffc9.jpg": "/theaq/static/media/home-blog.6caeffc9.jpg",
     "static/media/home-creations.97443d3a.jpg": "/theaq/static/media/home-creations.97443d3a.jpg",
     "static/media/home-skills.173e5030.jpg": "/theaq/static/media/home-skills.173e5030.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed051d45.js",
+    "static/js/runtime-main.87476f4a.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.8978b98a.chunk.js",
-    "static/css/main.b9d36087.chunk.css",
-    "static/js/main.864e6cda.chunk.js"
+    "static/js/2.6c847bd7.chunk.js",
+    "static/css/main.7584f083.chunk.css",
+    "static/js/main.b39ce157.chunk.js"
   ]
 }
