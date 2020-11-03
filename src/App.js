@@ -8,14 +8,14 @@ import Footer from './components/Footer';
 class App extends React.Component{
   render(){
     return(
-      <Router>
+      <Router basename="/theaq">
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom">
             <Navbar.Brand>TheAQ</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"></Navbar.Toggle>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/theaq">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/blog">Blog</Link>
                 <Link className="nav-link" to="/skills">Skills</Link>
                 <Link className="nav-link" to="/creations">Creations</Link>
@@ -25,7 +25,7 @@ class App extends React.Component{
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/theaq" exact><Home/></Route>
+          <Route path="/" exact><Home/></Route>
           <Route path="/blog" exact>Blog</Route>
           <Route path="/skills" exact>Skills</Route>
           <Route path="/creations" exact>Creations</Route>
