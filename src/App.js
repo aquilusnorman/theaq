@@ -15,7 +15,7 @@ class App extends React.Component{
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"></Navbar.Toggle>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/theaq">Home</Link>
                 <Link className="nav-link" to="/blog">Blog</Link>
                 <Link className="nav-link" to="/skills">Skills</Link>
                 <Link className="nav-link" to="/creations">Creations</Link>
@@ -25,7 +25,7 @@ class App extends React.Component{
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact><Home/></Route>
+          <Route path="/theaq" exact><Home/></Route>
           <Route path="/blog" exact>Blog</Route>
           <Route path="/skills" exact>Skills</Route>
           <Route path="/creations" exact>Creations</Route>
