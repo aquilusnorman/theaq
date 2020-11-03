@@ -5,6 +5,7 @@ import {Jumbotron, Button, Card, CardDeck} from 'react-bootstrap';
 import home_blog from '../img/home-blog.jpg';
 import home_skills from '../img/home-skills.jpg';
 import home_creations from '../img/home-creations.jpg';
+import {Link} from 'react-router-dom'
 
 function Home(){
     return(
@@ -24,7 +25,9 @@ function Home(){
                     mid 2021 and in late 2022, I'll be achieving Bachelor Degree.
                 </p>
                 <p>
-                    <Button href="/theaq/about" variant="dark">Know me more</Button>
+                    <Link to="/about">
+                        <Button variant="dark">Know me more</Button>
+                    </Link>
                 </p>
             </Jumbotron>
             <CardDeck>
@@ -35,7 +38,9 @@ function Home(){
                         <Card.Text>
                             Here you can see my blog and my articles on technology and my experiences in self-development, coding and many others.
                         </Card.Text>
-                        <Button variant="dark">Go To Blog</Button>
+                        <Link to="/blog">
+                            <Button variant="dark">Go To Blog</Button>
+                        </Link>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -45,7 +50,9 @@ function Home(){
                         <Card.Text>
                             Here you can see my skills. There's not much about it but it's like my portfolio.
                         </Card.Text>
-                        <Button variant="dark">Go To Skills</Button>
+                        <Link to="/skills">
+                            <Button variant="dark">Go To Skills</Button>
+                        </Link>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -55,7 +62,9 @@ function Home(){
                         <Card.Text>
                             Right here you can see what I've done through my student life and yet. It includes the games, programs and others, I've created.
                         </Card.Text>
-                        <Button variant="dark">Go To Creations</Button>
+                        <Link to="/creations">
+                            <Button variant="dark">Go To Creations</Button>                        
+                        </Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
