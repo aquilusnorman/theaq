@@ -9,14 +9,40 @@
 }
 
 .home-bg-text{
-    font-size: 5vw;
+    font-size: 6vw;
     color: white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 15%;
+}
+
+.brand-name{
+    font-family: 'Secular One', sans-serif;
 }
 
 .card-deck{
     margin-left: 2% !important;
     margin-right: 2% !important;
+}
+
+.jumbotron h1{
+    font-size: 3rem !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.jumbotron p{
+    font-size: 1rem !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 450px){
+    .jumbotron h1{
+        font-size: 2rem !important;
+    }
+
+    .jumbotron p{
+        font-size: 0.9rem !important;
+    }
 }

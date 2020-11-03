@@ -12,17 +12,19 @@ function Home(){
             <div className="bg-img-holder">
                 <img className="home-bg" src={home_bg} alt="home-bg"></img>
                 <p className="home-bg-text">
-                    WELCOME TO <br/>TheAQ
+                    WELCOME TO <br/><span className="brand-name">TheAQ</span>
                 </p>
             </div>
             <Jumbotron>
-                <h1>Hello! I'm Aquilus Norman</h1>
-                <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
+                <h1>Hello, I'm Aquilus Norman</h1>
+                <p align="justify">
+                    My real name is Zwe Yan Naing. You can call me "Zwe", "Aquilus" or whatever. I'm interested in game development.
+                    I look forward to create indie games and later on I'll be building a game development team where I can work with same-minded people.
+                    I'm currently studying under Youth International University Higher National Diploma (HND) Program. I'll be achieving HND certificate in
+                    mid 2021 and in late 2022, I'll be achieving Bachelor Degree.
                 </p>
                 <p>
-                    <Button variant="primary">Learn more</Button>
+                    <Button variant="dark">Know me more</Button>
                 </p>
             </Jumbotron>
             <CardDeck>
@@ -31,9 +33,9 @@ function Home(){
                     <Card.Body>
                         <Card.Title>Blog</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            Here you can see my blog and my articles on technology and my experiences in self-development, coding and many others.
                         </Card.Text>
+                        <Button variant="dark">Go To Blog</Button>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -41,9 +43,9 @@ function Home(){
                     <Card.Body>
                         <Card.Title>Skills</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            Here you can see my skills. There's not much about it but it's like my portfolio.
                         </Card.Text>
+                        <Button variant="dark">Go To Skills</Button>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -51,10 +53,9 @@ function Home(){
                     <Card.Body>
                         <Card.Title>Creations</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                            Right here you can see what I've done through my student life and yet. It includes the games, programs and others, I've created.
                         </Card.Text>
+                        <Button variant="dark">Go To Creations</Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
