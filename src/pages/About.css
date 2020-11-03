@@ -1,0 +1,48 @@
+.title-block{
+    background-color: black;
+    width: auto;
+}
+
+.About-Me{
+    padding-top: 5px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: white;
+}
+
+.carousel{
+    width: 400px;
+    margin: 4% 4% 4%;
+    float: left;
+}
+
+.carousel-inner{
+    border-radius: 50%;
+}
+
+.body-block{
+    overflow: auto;
+}
+
+.main-about{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 450px){
+  .carousel{
+      width: 300px;
+      margin: auto;
+      margin-top: 2%;
+      float: none;
+  }
+
+  .main-about{
+      margin: 4% 4% 4%;
+  }
+
+  .About-Me{
+      font-size: 30px;
+  }
+}

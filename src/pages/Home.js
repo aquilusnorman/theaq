@@ -1,7 +1,7 @@
 import React from 'react'
 import home_bg from '../img/home-bg.jpg'
 import './Home.css'
-import {Jumbotron, Container, Button, Card, CardDeck} from 'react-bootstrap';
+import {Jumbotron, Button, Card, CardDeck} from 'react-bootstrap';
 import home_blog from '../img/home-blog.jpg';
 import home_skills from '../img/home-skills.jpg';
 import home_creations from '../img/home-creations.jpg';
@@ -24,7 +24,7 @@ function Home(){
                     mid 2021 and in late 2022, I'll be achieving Bachelor Degree.
                 </p>
                 <p>
-                    <Button variant="dark">Know me more</Button>
+                    <Button variant="dark" href="/about">Know me more</Button>
                 </p>
             </Jumbotron>
             <CardDeck>

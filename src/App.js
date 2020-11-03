@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import Home from './pages/Home';
 import Footer from './components/Footer';
+import About from './pages/About';
 
 class App extends React.Component{
   render(){
@@ -30,7 +31,7 @@ class App extends React.Component{
           <Route path="/skills" exact>Skills</Route>
           <Route path="/creations" exact>Creations</Route>
           <Route path="/contact" exact>Contact</Route>
-          <Route path="/about" exact>About</Route>
+          <Route path="/about" exact><About/></Route>
 
           <Footer/>
 
