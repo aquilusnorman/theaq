@@ -8,7 +8,7 @@ import home_creations from '../img/home-creations.jpg';
 
 function Home(){
     return(
-        <div>
+            <div>
             <div className="bg-img-holder">
                 <img className="home-bg" src={home_bg} alt="home-bg"></img>
                 <p className="home-bg-text">
@@ -24,7 +24,7 @@ function Home(){
                     mid 2021 and in late 2022, I'll be achieving Bachelor Degree.
                 </p>
                 <p>
-                    <Button variant="dark" href="/theaq/about">Know me more</Button>
+                    <Button href="/theaq/about" variant="dark">Know me more</Button>
                 </p>
             </Jumbotron>
             <CardDeck>
