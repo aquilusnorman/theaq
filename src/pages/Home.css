@@ -1,0 +1,22 @@
+.bg-img-holder{
+    position: relative;
+    width: auto;
+}
+
+.home-bg{
+    max-width: 100%;
+    height: auto;
+}
+
+.home-bg-text{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.card-deck{
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}

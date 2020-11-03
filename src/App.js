@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import { Container, Navbar, Nav } from 'react-bootstrap';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return(
+      <Router>
+        <Container className="p-0" fluid={true}>
+          <Navbar className="border-bottom">
+            <Navbar.Brand>TheAQ</Navbar.Brand>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"></Navbar.Toggle>
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/blog">Blog</Link>
+                <Link className="nav-link" to="/skills">Skills</Link>
+                <Link className="nav-link" to="/creations">Creations</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/about">About</Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+
+          <Route path="/" exact><Home/></Route>
+          <Route path="/blog" exact>Blog</Route>
+          <Route path="/skills" exact>Skills</Route>
+          <Route path="/creations" exact>Creations</Route>
+          <Route path="/contact" exact>Contact</Route>
+          <Route path="/about" exact>About</Route>
+
+          <Footer/>
+
+        </Container>
+      </Router>
+    );
+  }
 }
 
 export default App;
