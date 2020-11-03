@@ -24,7 +24,7 @@ function Home(){
                     mid 2021 and in late 2022, I'll be achieving Bachelor Degree.
                 </p>
                 <p>
-                    <Button variant="dark" href="/thaq/about">Know me more</Button>
+                    <Button variant="dark" href="/theaq/about">Know me more</Button>
                 </p>
             </Jumbotron>
             <CardDeck>
