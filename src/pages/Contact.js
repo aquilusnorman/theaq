@@ -42,18 +42,29 @@ class Contact extends React.Component{
             message: message,
         }
 
-        emailjs.send(
-            'service_ra98z1y',
-            'template_mi821c6',
-            templateParams,
-            'user_UDHvEzf6GB71qn2PlU0aD'
-        ).then(function(response){
-            console.log('SUCCESS', response.status, response.text);
-        }, function(error){
-            console.log('FAILED', error)
-        })
-
-        this.resetForm()
+        if(
+            this.state.name.trim() != "" &&
+            this.state.email.trim() != "" &&
+            this.state.subject.trim() != "" &&
+            this.state.message.trim() != ""
+            ){
+                emailjs.send(
+                    'service_ra98z1y',
+                    'template_mi821c6',
+                    templateParams,
+                    'user_UDHvEzf6GB71qn2PlU0aD'
+                ).then(function(response){
+                    console.log('SUCCESS', response.status, response.text);
+                }, function(error){
+                    console.log('FAILED', error)
+                })
+                this.handleModalShow()
+                this.resetForm()
+            }
+        else{
+            alert("Please fill the form.")
+        }
+        
 
     }
 
@@ -74,24 +85,24 @@ class Contact extends React.Component{
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Name</Form.Label>
-                        <Form.Control required name="name" value={this.state.name} type="text" placeholder="Enter Name" onChange={this.handleChange.bind(this, 'name')}/>
+                        <Form.Control name="name" value={this.state.name} type="text" placeholder="Enter Name" onChange={this.handleChange.bind(this, 'name')}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address</Form.Label>
-                        <Form.Control required name="email" value={this.state.email} type="email" placeholder="Enter Email" onChange={this.handleChange.bind(this, 'email')}/>
+                        <Form.Control name="email" value={this.state.email} type="email" placeholder="Enter Email" onChange={this.handleChange.bind(this, 'email')}/>
                         <Form.Text className="text-muted">
                             Your email will not be shared.
                         </Form.Text>
                     </Form.Group>
                     <Form.Group controlId="formBasicSubject">
                         <Form.Label>Subject</Form.Label>
-                        <Form.Control required name="subject" value={this.state.subject} type="text" placeholder="Enter Subject" onChange={this.handleChange.bind(this, 'subject')}/>
+                        <Form.Control name="subject" value={this.state.subject} type="text" placeholder="Enter Subject" onChange={this.handleChange.bind(this, 'subject')}/>
                     </Form.Group>
                     <Form.Group controlId="formBasicMessage">
                         <Form.Label>Message</Form.Label>
                         <Form.Control name="message" value={this.state.message} as="textarea" rows={3} placeholder="Enter Message" onChange={this.handleChange.bind(this, 'message')} />
                     </Form.Group>
-                    <Button variant="dark" type="submit" block>
+                    <Button variant="dark" type="submit">
                         Submit
                     </Button>
                 </Form>
@@ -99,7 +110,7 @@ class Contact extends React.Component{
                     <Modal.Header closeButton>
                     <Modal.Title>Message Sent</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>Thank you so much, the reply will be in a day.</Modal.Body>
+                    <Modal.Body>Thank you so much, Have a great day !.</Modal.Body>
                     <Modal.Footer>
                     <Button variant="secondary" onClick={this.handleModalClose}>
                         Close
