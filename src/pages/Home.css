@@ -1,3 +1,7 @@
+.home-container{
+    position: relative;
+}
+
 .bg-img-holder{
     position: relative;
     width: auto;

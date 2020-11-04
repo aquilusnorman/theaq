@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 
 function Home(){
     return(
-            <div>
+            <div className="home-container">
             <div className="bg-img-holder">
                 <img className="home-bg" src={home_bg} alt="home-bg"></img>
                 <p className="home-bg-text">
