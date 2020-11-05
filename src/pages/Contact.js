@@ -102,7 +102,7 @@ class Contact extends React.Component{
                         <Form.Label>Message</Form.Label>
                         <Form.Control name="message" value={this.state.message} as="textarea" rows={3} placeholder="Enter Message" onChange={this.handleChange.bind(this, 'message')} />
                     </Form.Group>
-                    <Button variant="outline-dark" type="submit">
+                    <Button variant="outline-dark" type="submit" block>
                         Submit
                     </Button>
                 </Form>
