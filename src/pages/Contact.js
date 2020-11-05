@@ -102,7 +102,7 @@ class Contact extends React.Component{
                         <Form.Label>Message</Form.Label>
                         <Form.Control name="message" value={this.state.message} as="textarea" rows={3} placeholder="Enter Message" onChange={this.handleChange.bind(this, 'message')} />
                     </Form.Group>
-                    <Button variant="dark" type="submit">
+                    <Button variant="outline-dark" type="submit">
                         Submit
                     </Button>
                 </Form>
@@ -112,7 +112,7 @@ class Contact extends React.Component{
                     </Modal.Header>
                     <Modal.Body>Thank you so much, Have a great day !.</Modal.Body>
                     <Modal.Footer>
-                    <Button variant="secondary" onClick={this.handleModalClose}>
+                    <Button variant="dark" onClick={this.handleModalClose}>
                         Close
                     </Button>
                     </Modal.Footer>
