@@ -13,7 +13,7 @@ function Creation(props){
                 <p align="justify">
                     {props.text}
                 </p>
-                <Button className="creation-btn" href={props.link} variant="dark" size="lg">
+                <Button className="creation-btn" href={props.link} variant="dark">
                     {props.linkButton}
                 </Button>
             </div>

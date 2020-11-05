@@ -42,11 +42,15 @@
         padding: 5% 5% 5%;
     }
 
-    .creation-box h2{
-        font-size: 2rem;
+    .creation-content h2{
+        font-size: 1.5rem;
     }
 
-    .btn{
+    .creation-content p{
+        font-size: 0.8rem;
+    }
+
+    .creation-btn{
         position: static;
     }
 }
