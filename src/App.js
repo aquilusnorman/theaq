@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Creations from './pages/Creations';
 
 class App extends React.Component{
   render(){
@@ -29,7 +30,7 @@ class App extends React.Component{
           <Route path="/" exact><Home/></Route>
           <Route path="/blog" exact>Blog</Route>
           <Route path="/skills" exact>Skills</Route>
-          <Route path="/creations" exact>Creations</Route>
+          <Route path="/creations" exact><Creations/></Route>
           <Route path="/contact" exact><Contact/></Route>
           <Route path="/about" exact><About/></Route>
 

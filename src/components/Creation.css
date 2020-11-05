@@ -1,0 +1,58 @@
+.creation-box{
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2% 2% 2%;
+    overflow: auto;
+    position: relative;
+}
+
+.creation-box img{
+    float: left;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.creation-content h2{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.creation-content p{
+    font-size: 1.2rem;
+}
+
+.creation-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2% 2% 2%;
+}
+
+@media screen and (max-width: 900px){
+    .creation-box{
+        align-items: center;
+    }
+
+    .creation-box img{
+        border-radius: 10%;
+        float: none;
+        margin: auto;
+        padding: 5% 5% 5%;
+    }
+
+    .creation-box h2{
+        font-size: 2rem;
+    }
+
+    .btn{
+        position: static;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .creation-box img{
+        margin-right: 2%;
+    }
+}
