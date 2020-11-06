@@ -7,13 +7,18 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Creations from './pages/Creations';
+import facebook_logo from './img/social-media-logo/facebook.png'
 
 class App extends React.Component{
   render(){
     return(
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>TheAQ</Navbar.Brand>
+            <Navbar.Brand>
+              <a href="/">
+                TheAQ
+              </a> 
+            </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"></Navbar.Toggle>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -28,8 +33,8 @@ class App extends React.Component{
           </Navbar>
 
           <Route path="/" exact><Home/></Route>
-          <Route path="/blog" exact>Blog</Route>
-          <Route path="/skills" exact>Skills</Route>
+          <Route path="/blog" exact>COMING SOON</Route>
+          <Route path="/skills" exact>COMING SOON</Route>
           <Route path="/creations" exact><Creations/></Route>
           <Route path="/contact" exact><Contact/></Route>
           <Route path="/about" exact><About/></Route>

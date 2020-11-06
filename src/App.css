@@ -1,4 +1,5 @@
 .navbar-brand{
+  margin-left: 2%;
   font-size: 1.8rem !important;
   font-family: 'Secular One', sans-serif;
 }
@@ -6,4 +7,14 @@
 .nav-link{
   font-size: 1.3rem !important;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand a:hover{
+  color: black;
+  text-decoration: none;
 }

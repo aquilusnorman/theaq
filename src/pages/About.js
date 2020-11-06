@@ -1,9 +1,13 @@
 import React from 'react'
-import { Col, Container, Row, Carousel } from 'react-bootstrap'
+import { Col, Container, Row, Carousel, Button } from 'react-bootstrap'
 import './About.css'
 import skills_profile from '../img/skills-profile.jpg'
 import skills_profile1 from '../img/skills-profile1.jpg'
 import skills_profile2 from '../img/skills-profile2.jpg'
+import facebook_logo from '../img/social-media-logo/facebook.png'
+import youtube_logo from '../img/social-media-logo/youtube.png'
+import twitter_logo from '../img/social-media-logo/twitter.png'
+import linkedin_logo from '../img/social-media-logo/linkedin.png'
 
 function Skills(){
     return(
@@ -54,6 +58,22 @@ function Skills(){
                     &emsp;I also would like to grow my youtube channel but for a while, 
                     I don’t have equipments for clear audio recording and an environment where I can record myself. 
                     But now, I’ll be writing my experiences, tips and tricks, trending things and other useful contents.</p>
+                </div>
+                <div className="connect-me">
+                    <div className="social-media-icons">
+                        <a href="">
+                            <img className="img-fluid facebook" src={facebook_logo}></img>
+                        </a>
+                        <a href="">
+                            <img className="img-fluid youtube" src={youtube_logo}></img>
+                        </a>
+                        <a href="">
+                            <img className="img-fluid twitter" src={twitter_logo}></img>
+                        </a>
+                        <a href="">
+                            <img className="img-fluid linkedin" src={linkedin_logo}></img>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
