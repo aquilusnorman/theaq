@@ -61,16 +61,16 @@ function Skills(){
                 </div>
                 <div className="connect-me">
                     <div className="social-media-icons">
-                        <a href="">
+                        <a href="https://www.facebook.com/zweyan.naing.904/">
                             <img className="img-fluid facebook" src={facebook_logo}></img>
                         </a>
-                        <a href="">
+                        <a href="https://www.youtube.com/channel/UCU8FUioWr59FVjGvl0RdO8g">
                             <img className="img-fluid youtube" src={youtube_logo}></img>
                         </a>
-                        <a href="">
+                        <a href="https://twitter.com/AquilusN">
                             <img className="img-fluid twitter" src={twitter_logo}></img>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/aquilus-norman-0b945818b/">
                             <img className="img-fluid linkedin" src={linkedin_logo}></img>
                         </a>
                     </div>
