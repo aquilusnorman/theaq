@@ -70,6 +70,15 @@
     -webkit-border-radius:190px;
 }
 
+.social-media-icons .blogger:hover{
+    width: 5.5rem;
+    -moz-box-shadow: 0px 6px 5px #fc4f08;
+    -webkit-box-shadow: 0px 6px 5px #fc4f08;
+    box-shadow: 0px 6px 8px #fc4f08;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+
 .social-media-icons img{
     margin-top: 1%;
     width: 5rem;

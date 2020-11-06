@@ -8,6 +8,7 @@ import facebook_logo from '../img/social-media-logo/facebook.png'
 import youtube_logo from '../img/social-media-logo/youtube.png'
 import twitter_logo from '../img/social-media-logo/twitter.png'
 import linkedin_logo from '../img/social-media-logo/linkedin.png'
+import blogger_logo from '../img/social-media-logo/blogger.png'
 
 function Skills(){
     return(
@@ -72,6 +73,9 @@ function Skills(){
                         </a>
                         <a href="https://www.linkedin.com/in/aquilus-norman-0b945818b/">
                             <img className="img-fluid linkedin" src={linkedin_logo}></img>
+                        </a>
+                        <a href="https://www.fixyaq.com">
+                            <img className="img-fluid blogger" src={blogger_logo}></img>
                         </a>
                     </div>
                 </div>
