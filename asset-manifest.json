@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/theaq/static/css/main.6e649f98.chunk.css",
-    "main.js": "/theaq/static/js/main.7ea55f58.chunk.js",
-    "main.js.map": "/theaq/static/js/main.7ea55f58.chunk.js.map",
+    "main.js": "/theaq/static/js/main.65eaeefb.chunk.js",
+    "main.js.map": "/theaq/static/js/main.65eaeefb.chunk.js.map",
     "runtime-main.js": "/theaq/static/js/runtime-main.0ee8fbcd.js",
     "runtime-main.js.map": "/theaq/static/js/runtime-main.0ee8fbcd.js.map",
     "static/css/2.95f25948.chunk.css": "/theaq/static/css/2.95f25948.chunk.css",
@@ -16,14 +16,14 @@
     "static/js/2.3c8c1b66.chunk.js.LICENSE.txt": "/theaq/static/js/2.3c8c1b66.chunk.js.LICENSE.txt",
     "static/media/creation-post1.08f595dd.jpg": "/theaq/static/media/creation-post1.08f595dd.jpg",
     "static/media/facebook.8d51a556.png": "/theaq/static/media/facebook.8d51a556.png",
-    "static/media/home-bg.5fa67f1b.jpg": "/theaq/static/media/home-bg.5fa67f1b.jpg",
-    "static/media/home-blog.6caeffc9.jpg": "/theaq/static/media/home-blog.6caeffc9.jpg",
-    "static/media/home-creations.97443d3a.jpg": "/theaq/static/media/home-creations.97443d3a.jpg",
-    "static/media/home-skills.173e5030.jpg": "/theaq/static/media/home-skills.173e5030.jpg",
+    "static/media/home-bg.2487df4f.jpg": "/theaq/static/media/home-bg.2487df4f.jpg",
+    "static/media/home-blog.ca8f5867.jpg": "/theaq/static/media/home-blog.ca8f5867.jpg",
+    "static/media/home-creations.3bb5dc7b.jpg": "/theaq/static/media/home-creations.3bb5dc7b.jpg",
+    "static/media/home-skills.c2776668.jpg": "/theaq/static/media/home-skills.c2776668.jpg",
     "static/media/linkedin.032cf8a6.png": "/theaq/static/media/linkedin.032cf8a6.png",
-    "static/media/skills-profile.78df1332.jpg": "/theaq/static/media/skills-profile.78df1332.jpg",
-    "static/media/skills-profile1.6bf81c6d.jpg": "/theaq/static/media/skills-profile1.6bf81c6d.jpg",
-    "static/media/skills-profile2.633157a2.jpg": "/theaq/static/media/skills-profile2.633157a2.jpg",
+    "static/media/skills-profile.5161cddc.jpg": "/theaq/static/media/skills-profile.5161cddc.jpg",
+    "static/media/skills-profile1.b769a7f2.jpg": "/theaq/static/media/skills-profile1.b769a7f2.jpg",
+    "static/media/skills-profile2.e8108499.jpg": "/theaq/static/media/skills-profile2.e8108499.jpg",
     "static/media/twitter.67ad063d.png": "/theaq/static/media/twitter.67ad063d.png",
     "static/media/youtube.0b7c86fb.png": "/theaq/static/media/youtube.0b7c86fb.png"
   },
@@ -32,6 +32,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.3c8c1b66.chunk.js",
     "static/css/main.6e649f98.chunk.css",
-    "static/js/main.7ea55f58.chunk.js"
+    "static/js/main.65eaeefb.chunk.js"
   ]
 }
