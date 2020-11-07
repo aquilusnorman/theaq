@@ -11,15 +11,9 @@
 
 - 🤝 I’m looking for help with **3D modelling professionals.**
 
-- 👨‍💻 All of my projects are available at [https://aquilusnorman.github.io/theaq/#/creations](https://aquilusnorman.github.io/theaq/#/creations)
-
-- 📝 I regulary write articles on [https://www.fixyaq.com](https://www.fixyaq.com)
-
 - 💬 Ask me about **Python, C#, C++, Java**
 
 - 📫 How to reach me **zweyannaing101@gmail.com**
-
-- 📄 Know about my experiences [CNC Programming for 2 Years, Computer Programming for 2 Years](CNC Programming for 2 Years, Computer Programming for 2 Years)
 
 - ⚡ Fun fact **I'm batman :3**
 
