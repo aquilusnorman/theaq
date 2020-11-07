@@ -47,9 +47,8 @@ function Skills(){
                     I look forward to create indie games and later on I'll be building a game development team where I can work with same-minded people.
                     I'm currently studying under Youth International University Higher National Diploma (HND) Program. I'll be achieving HND certificate in
                     mid 2021 and in late 2022, I'll be achieving Bachelor Degree.<br/>
-                    &emsp;I am a CNC Programmer, Game Tester and an IT Student. 
-                    I’m currently working at KSP manufacturing in Yangon where I work as a CNC Programmer and I’m studying at Youth International University (YIU) since 2018. 
-                    Next year, I’ll be achieving Higher National Diploma in Information Technology given by BTEC Pearson. 
+                    &emsp;I am a CNC Programmer, Game Tester and an IT Student.
+                    I’m currently working at KSP manufacturing in Yangon where I work as a CNC Programmer.
                     I’m greatly interested in Game Development, Robotics and Mobile App Development. I’m not an expert in 
                     Photo and Video editing with Adobe software but I’ve gained an intermediate level that I can create minimalistic logos, 
                     mesmerizing background theme designs and video editing with Premiere Pro.
@@ -58,7 +57,9 @@ function Skills(){
                     the program leaks and unfortunate graphic placements and performance which will slightly affect user experience.<br/>
                     &emsp;I also would like to grow my youtube channel but for a while, 
                     I don’t have equipments for clear audio recording and an environment where I can record myself. 
-                    But now, I’ll be writing my experiences, tips and tricks, trending things and other useful contents.</p>
+                    But now, I’ll be writing my experiences, tips and tricks, trending things and other useful contents.<br/>
+                    &emsp;I love playing table tennis and soccer. I love every sports but those two are my favourites. I also dreamt of becoming a table tennis
+                    champion when I was young. But now, I just love playing table tennis with friends.</p>
                 </div>
                 <div className="connect-me">
                     <div className="social-media-icons">

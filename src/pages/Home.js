@@ -31,7 +31,7 @@ function Home(){
                 </p>
             </Jumbotron>
             <CardDeck>
-                <Card>
+                <Card className="shadow">
                     <Card.Img variant="top" src={home_blog} />
                     <Card.Body>
                         <Card.Title>Blog</Card.Title>
@@ -43,7 +43,7 @@ function Home(){
                         </Link>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className="shadow">
                     <Card.Img variant="top" src={home_skills} />
                     <Card.Body>
                         <Card.Title>Skills</Card.Title>
@@ -55,7 +55,7 @@ function Home(){
                         </Link>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className="shadow">
                     <Card.Img variant="top" src={home_creations} />
                     <Card.Body>
                         <Card.Title>Creations</Card.Title>

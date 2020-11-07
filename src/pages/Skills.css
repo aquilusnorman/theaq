@@ -1,0 +1,66 @@
+.skills-content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2% 2% 2%;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.titles{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.tool-logo{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 5rem !important;
+}
+
+.Skills-Block{
+    padding-top: 5px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: white;
+}
+
+.project-case{
+    align-items: center;
+}
+
+.tools-logos img{
+    width: 100px;
+    height: auto;
+    margin: 1% 1% 1%;
+}
+
+.tool-card{
+    margin: 2% 3% 2%;
+    border: 0px !important;
+    border-bottom: 3px solid black !important;
+}
+
+@media screen and (max-width: 1000px){
+    .skills-content{
+        width: 90%;
+        margin: auto;
+    }
+
+    .tool-card{
+        width: 7rem !important;
+        height: auto !important;
+    }
+
+    .tools-logos img{
+        width: 65px;
+    }
+}
