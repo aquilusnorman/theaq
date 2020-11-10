@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Creations from './pages/Creations';
 import facebook_logo from './img/social-media-logo/facebook.png'
 import Skills from './pages/Skills';
+import Blog from './pages/Blog';
 
 class App extends React.Component{
   render(){
@@ -34,7 +35,7 @@ class App extends React.Component{
           </Navbar>
 
           <Route path="/" exact><Home/></Route>
-          <Route path="/blog" exact>COMING SOON</Route>
+          <Route path="/blog" exact><Blog/></Route>
           <Route path="/skills" exact><Skills/></Route>
           <Route path="/creations" exact><Creations/></Route>
           <Route path="/contact" exact><Contact/></Route>
