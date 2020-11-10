@@ -1,4 +1,3 @@
-import "shards-ui/dist/css/shards.min.css";
 import "./assets/shards-dashboards.1.1.0.min.css";
 
 import React from 'react'
