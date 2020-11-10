@@ -1,4 +1,4 @@
-import "./assets/shards-dashboards.1.1.0.min.css";
+import "./shards.css";
 
 import React from 'react'
 import { Col, Row } from 'shards-react';

@@ -1,7 +1,7 @@
 .navbar-brand{
   margin-left: 2%;
   font-size: 1.8rem !important;
-  font-family: 'Secular One', sans-serif;
+  font-family: 'Secular One', sans-serif !important;
 }
 
 .nav-link{
