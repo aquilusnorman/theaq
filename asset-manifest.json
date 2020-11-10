@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/theaq/static/css/main.e522fd42.chunk.css",
-    "main.js": "/theaq/static/js/main.9b2ec58e.chunk.js",
-    "main.js.map": "/theaq/static/js/main.9b2ec58e.chunk.js.map",
-    "runtime-main.js": "/theaq/static/js/runtime-main.65ec5491.js",
-    "runtime-main.js.map": "/theaq/static/js/runtime-main.65ec5491.js.map",
-    "static/css/2.95f25948.chunk.css": "/theaq/static/css/2.95f25948.chunk.css",
-    "static/js/2.5bcda288.chunk.js": "/theaq/static/js/2.5bcda288.chunk.js",
-    "static/js/2.5bcda288.chunk.js.map": "/theaq/static/js/2.5bcda288.chunk.js.map",
-    "static/js/3.b9d6a2a6.chunk.js": "/theaq/static/js/3.b9d6a2a6.chunk.js",
-    "static/js/3.b9d6a2a6.chunk.js.map": "/theaq/static/js/3.b9d6a2a6.chunk.js.map",
+    "main.css": "/theaq/static/css/main.c6033501.chunk.css",
+    "main.js": "/theaq/static/js/main.fe050ff0.chunk.js",
+    "main.js.map": "/theaq/static/js/main.fe050ff0.chunk.js.map",
+    "runtime-main.js": "/theaq/static/js/runtime-main.fb43ee3f.js",
+    "runtime-main.js.map": "/theaq/static/js/runtime-main.fb43ee3f.js.map",
+    "static/css/2.1b2be7ec.chunk.css": "/theaq/static/css/2.1b2be7ec.chunk.css",
+    "static/js/2.0512eed6.chunk.js": "/theaq/static/js/2.0512eed6.chunk.js",
+    "static/js/2.0512eed6.chunk.js.map": "/theaq/static/js/2.0512eed6.chunk.js.map",
     "index.html": "/theaq/index.html",
-    "static/css/2.95f25948.chunk.css.map": "/theaq/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.e522fd42.chunk.css.map": "/theaq/static/css/main.e522fd42.chunk.css.map",
-    "static/js/2.5bcda288.chunk.js.LICENSE.txt": "/theaq/static/js/2.5bcda288.chunk.js.LICENSE.txt",
+    "static/css/2.1b2be7ec.chunk.css.map": "/theaq/static/css/2.1b2be7ec.chunk.css.map",
+    "static/css/main.c6033501.chunk.css.map": "/theaq/static/css/main.c6033501.chunk.css.map",
+    "static/js/2.0512eed6.chunk.js.LICENSE.txt": "/theaq/static/js/2.0512eed6.chunk.js.LICENSE.txt",
     "static/media/Skills.aa6d8fe2.md": "/theaq/static/media/Skills.aa6d8fe2.md",
     "static/media/creation-post1.08f595dd.jpg": "/theaq/static/media/creation-post1.08f595dd.jpg",
     "static/media/facebook.8d51a556.png": "/theaq/static/media/facebook.8d51a556.png",
@@ -29,10 +27,10 @@
     "static/media/youtube.0b7c86fb.png": "/theaq/static/media/youtube.0b7c86fb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.65ec5491.js",
-    "static/css/2.95f25948.chunk.css",
-    "static/js/2.5bcda288.chunk.js",
-    "static/css/main.e522fd42.chunk.css",
-    "static/js/main.9b2ec58e.chunk.js"
+    "static/js/runtime-main.fb43ee3f.js",
+    "static/css/2.1b2be7ec.chunk.css",
+    "static/js/2.0512eed6.chunk.js",
+    "static/css/main.c6033501.chunk.css",
+    "static/js/main.fe050ff0.chunk.js"
   ]
 }
