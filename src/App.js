@@ -17,7 +17,7 @@ class App extends React.Component{
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>
-              <a href="/#">
+              <a href="/theaq">
                 TheAQ
               </a> 
             </Navbar.Brand>
